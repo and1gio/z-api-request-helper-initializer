@@ -1,7 +1,7 @@
 {
     "name": "z-api-request-helper-initializer",
     "description": "Z API Request Helper Initializer",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": {
         "name": "Giorgi Maisuradze"
     },
@@ -16,7 +16,7 @@
         }
     ],
     "dependencies": {
-        "z-api-request-helper": "0.0.6"
+        "z-api-request-helper": "0.0.7"
     },
     "main": "z-api-request-helper-initializer.js"
 }
