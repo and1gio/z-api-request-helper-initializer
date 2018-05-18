@@ -3,7 +3,7 @@
 module.exports = {
     run: function (app, next) {
 
-        let ZApiRequestHelper = require('z-api-request-helper');
+        const ZApiRequestHelper = require('./z-api-request-helper');
         app.zApiRequestHelper = {};
 
         for (let config in app.config.zApiRequestHelper) {
